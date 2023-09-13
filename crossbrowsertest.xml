@@ -1,0 +1,27 @@
+<suite name="LearnSuite" parallel="tests">
+	
+<test thread-count="5" name="ChromeTest">
+ <parameter name="browser" value="chrome"/>
+ <classes>
+  <class name="testpackage.TC_001_ProfServicesTest"/>
+  <class name="testpackage.TC_002_LearningTest"/>
+ </classes>
+</test> <!-- LearnTest -->
+  
+  <test thread-count="5" name="EdgeTest">
+	  <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testpackage.TC_001_ProfServicesTest"/>
+      <class name="testpackage.TC_002_LearningTest"/>
+    </classes>
+  </test> <!-- LearnTest -->
+  
+  <test thread-count="5" name="FirefoxTest">
+	  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testpackage.TC_001_ProfServicesTest"/>
+      <class name="testpackage.TC_002_LearningTest"/>
+    </classes>
+  </test> <!-- LearnTest -->
+  
+</suite> <!-- LearnSuite -->

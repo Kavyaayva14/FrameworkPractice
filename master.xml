@@ -1,0 +1,15 @@
+
+<suite name="LearnSuite">
+	
+	<listeners>
+		<listener class-name = "utilities.ExtentReportManager"/>
+	</listeners>
+	
+  <test thread-count="5" name="LearnTest">
+	  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testpackage.TC_001_ProfServicesTest"/>
+      <class name="testpackage.TC_002_LearningTest"/>
+    </classes>
+  </test> <!-- LearnTest -->
+</suite> <!-- LearnSuite -->

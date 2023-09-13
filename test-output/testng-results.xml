@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-12T15:14:22 IST" name="LearnSuite" finished-at="2023-09-12T15:15:17 IST" duration-ms="55250">
+    <groups>
+    </groups>
+    <test started-at="2023-09-12T15:14:22 IST" name="LearnTest" finished-at="2023-09-12T15:15:17 IST" duration-ms="55250">
+      <class name="testpackage.TC_001_ProfServicesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testpackage.TC_001_ProfServicesTest@57a78e3]" started-at="2023-09-12T15:14:22 IST" name="setup" finished-at="2023-09-12T15:14:34 IST" duration-ms="11984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_profservices()[pri:1, instance:testpackage.TC_001_ProfServicesTest@57a78e3]" started-at="2023-09-12T15:14:34 IST" name="test_profservices" finished-at="2023-09-12T15:14:38 IST" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_profservices -->
+        <test-method signature="test_fillForm()[pri:2, instance:testpackage.TC_001_ProfServicesTest@57a78e3]" started-at="2023-09-12T15:14:38 IST" name="test_fillForm" finished-at="2023-09-12T15:14:51 IST" duration-ms="12893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_fillForm -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testpackage.TC_001_ProfServicesTest@57a78e3]" started-at="2023-09-12T15:14:51 IST" name="teardown" finished-at="2023-09-12T15:14:52 IST" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testpackage.TC_001_ProfServicesTest -->
+      <class name="testpackage.TC_002_LearningTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testpackage.TC_002_LearningTest@7ce026d3]" started-at="2023-09-12T15:14:52 IST" name="setup" finished-at="2023-09-12T15:15:00 IST" duration-ms="8321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_learning()[pri:1, instance:testpackage.TC_002_LearningTest@7ce026d3]" started-at="2023-09-12T15:15:00 IST" name="test_learning" finished-at="2023-09-12T15:15:09 IST" duration-ms="8702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_learning -->
+        <test-method signature="test_signin()[pri:2, instance:testpackage.TC_002_LearningTest@7ce026d3]" started-at="2023-09-12T15:15:09 IST" name="test_signin" finished-at="2023-09-12T15:15:16 IST" duration-ms="7050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_signin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testpackage.TC_002_LearningTest@7ce026d3]" started-at="2023-09-12T15:15:16 IST" name="teardown" finished-at="2023-09-12T15:15:17 IST" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testpackage.TC_002_LearningTest -->
+    </test> <!-- LearnTest -->
+  </suite> <!-- LearnSuite -->
+</testng-results>
