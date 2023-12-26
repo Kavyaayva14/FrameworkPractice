@@ -5,8 +5,8 @@
     <classes>
       <class name="testpackage.TC_001_ProfServicesTest">
         <methods>
-          <include name="setup"/>
           <include name="test_fillForm"/>
+          <include name="setup"/>
           <include name="test_profservices"/>
           <include name="teardown"/>
         </methods>
